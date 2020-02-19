@@ -1,0 +1,180 @@
+
+> Task :dependencies
+
+------------------------------------------------------------
+Root project
+------------------------------------------------------------
+
+annotationProcessor - Annotation processors and their dependencies for source set 'main'.
+No dependencies
+
+apiElements - API elements for main. (n)
+No dependencies
+
+archives - Configuration for archive artifacts.
+No dependencies
+
+compileClasspath - Compile classpath for source set 'main'.
+\--- org.apache.tomcat:tomcat-catalina:latest.release -> 9.0.31
+     +--- org.apache.tomcat:tomcat-servlet-api:9.0.31
+     +--- org.apache.tomcat:tomcat-jsp-api:9.0.31
+     |    +--- org.apache.tomcat:tomcat-el-api:9.0.31
+     |    \--- org.apache.tomcat:tomcat-servlet-api:9.0.31
+     +--- org.apache.tomcat:tomcat-juli:9.0.31
+     +--- org.apache.tomcat:tomcat-annotations-api:9.0.31
+     +--- org.apache.tomcat:tomcat-api:9.0.31
+     |    \--- org.apache.tomcat:tomcat-servlet-api:9.0.31
+     +--- org.apache.tomcat:tomcat-jni:9.0.31
+     +--- org.apache.tomcat:tomcat-coyote:9.0.31
+     |    +--- org.apache.tomcat:tomcat-servlet-api:9.0.31
+     |    +--- org.apache.tomcat:tomcat-jni:9.0.31
+     |    +--- org.apache.tomcat:tomcat-juli:9.0.31
+     |    \--- org.apache.tomcat:tomcat-util:9.0.31
+     |         \--- org.apache.tomcat:tomcat-juli:9.0.31
+     +--- org.apache.tomcat:tomcat-util:9.0.31 (*)
+     +--- org.apache.tomcat:tomcat-util-scan:9.0.31
+     |    +--- org.apache.tomcat:tomcat-util:9.0.31 (*)
+     |    +--- org.apache.tomcat:tomcat-juli:9.0.31
+     |    \--- org.apache.tomcat:tomcat-api:9.0.31 (*)
+     \--- org.apache.tomcat:tomcat-jaspic-api:9.0.31
+
+compileOnly - Compile only dependencies for source set 'main'. (n)
+No dependencies
+
+default - Configuration for default artifacts.
+\--- org.apache.tomcat:tomcat-catalina:latest.release -> 9.0.31
+     +--- org.apache.tomcat:tomcat-servlet-api:9.0.31
+     +--- org.apache.tomcat:tomcat-jsp-api:9.0.31
+     |    +--- org.apache.tomcat:tomcat-el-api:9.0.31
+     |    \--- org.apache.tomcat:tomcat-servlet-api:9.0.31
+     +--- org.apache.tomcat:tomcat-juli:9.0.31
+     +--- org.apache.tomcat:tomcat-annotations-api:9.0.31
+     +--- org.apache.tomcat:tomcat-api:9.0.31
+     |    \--- org.apache.tomcat:tomcat-servlet-api:9.0.31
+     +--- org.apache.tomcat:tomcat-jni:9.0.31
+     +--- org.apache.tomcat:tomcat-coyote:9.0.31
+     |    +--- org.apache.tomcat:tomcat-servlet-api:9.0.31
+     |    +--- org.apache.tomcat:tomcat-jni:9.0.31
+     |    +--- org.apache.tomcat:tomcat-juli:9.0.31
+     |    \--- org.apache.tomcat:tomcat-util:9.0.31
+     |         \--- org.apache.tomcat:tomcat-juli:9.0.31
+     +--- org.apache.tomcat:tomcat-util:9.0.31 (*)
+     +--- org.apache.tomcat:tomcat-util-scan:9.0.31
+     |    +--- org.apache.tomcat:tomcat-util:9.0.31 (*)
+     |    +--- org.apache.tomcat:tomcat-juli:9.0.31
+     |    \--- org.apache.tomcat:tomcat-api:9.0.31 (*)
+     \--- org.apache.tomcat:tomcat-jaspic-api:9.0.31
+
+implementation - Implementation only dependencies for source set 'main'. (n)
+\--- org.apache.tomcat:tomcat-catalina:latest.release (n)
+
+runtimeClasspath - Runtime classpath of source set 'main'.
+\--- org.apache.tomcat:tomcat-catalina:latest.release -> 9.0.31
+     +--- org.apache.tomcat:tomcat-servlet-api:9.0.31
+     +--- org.apache.tomcat:tomcat-jsp-api:9.0.31
+     |    +--- org.apache.tomcat:tomcat-el-api:9.0.31
+     |    \--- org.apache.tomcat:tomcat-servlet-api:9.0.31
+     +--- org.apache.tomcat:tomcat-juli:9.0.31
+     +--- org.apache.tomcat:tomcat-annotations-api:9.0.31
+     +--- org.apache.tomcat:tomcat-api:9.0.31
+     |    \--- org.apache.tomcat:tomcat-servlet-api:9.0.31
+     +--- org.apache.tomcat:tomcat-jni:9.0.31
+     +--- org.apache.tomcat:tomcat-coyote:9.0.31
+     |    +--- org.apache.tomcat:tomcat-servlet-api:9.0.31
+     |    +--- org.apache.tomcat:tomcat-jni:9.0.31
+     |    +--- org.apache.tomcat:tomcat-juli:9.0.31
+     |    \--- org.apache.tomcat:tomcat-util:9.0.31
+     |         \--- org.apache.tomcat:tomcat-juli:9.0.31
+     +--- org.apache.tomcat:tomcat-util:9.0.31 (*)
+     +--- org.apache.tomcat:tomcat-util-scan:9.0.31
+     |    +--- org.apache.tomcat:tomcat-util:9.0.31 (*)
+     |    +--- org.apache.tomcat:tomcat-juli:9.0.31
+     |    \--- org.apache.tomcat:tomcat-api:9.0.31 (*)
+     \--- org.apache.tomcat:tomcat-jaspic-api:9.0.31
+
+runtimeElements - Elements of runtime for main. (n)
+No dependencies
+
+runtimeOnly - Runtime only dependencies for source set 'main'. (n)
+No dependencies
+
+testAnnotationProcessor - Annotation processors and their dependencies for source set 'test'.
+No dependencies
+
+testCompileClasspath - Compile classpath for source set 'test'.
++--- org.apache.tomcat:tomcat-catalina:latest.release -> 9.0.31
+|    +--- org.apache.tomcat:tomcat-servlet-api:9.0.31
+|    +--- org.apache.tomcat:tomcat-jsp-api:9.0.31
+|    |    +--- org.apache.tomcat:tomcat-el-api:9.0.31
+|    |    \--- org.apache.tomcat:tomcat-servlet-api:9.0.31
+|    +--- org.apache.tomcat:tomcat-juli:9.0.31
+|    +--- org.apache.tomcat:tomcat-annotations-api:9.0.31
+|    +--- org.apache.tomcat:tomcat-api:9.0.31
+|    |    \--- org.apache.tomcat:tomcat-servlet-api:9.0.31
+|    +--- org.apache.tomcat:tomcat-jni:9.0.31
+|    +--- org.apache.tomcat:tomcat-coyote:9.0.31
+|    |    +--- org.apache.tomcat:tomcat-servlet-api:9.0.31
+|    |    +--- org.apache.tomcat:tomcat-jni:9.0.31
+|    |    +--- org.apache.tomcat:tomcat-juli:9.0.31
+|    |    \--- org.apache.tomcat:tomcat-util:9.0.31
+|    |         \--- org.apache.tomcat:tomcat-juli:9.0.31
+|    +--- org.apache.tomcat:tomcat-util:9.0.31 (*)
+|    +--- org.apache.tomcat:tomcat-util-scan:9.0.31
+|    |    +--- org.apache.tomcat:tomcat-util:9.0.31 (*)
+|    |    +--- org.apache.tomcat:tomcat-juli:9.0.31
+|    |    \--- org.apache.tomcat:tomcat-api:9.0.31 (*)
+|    \--- org.apache.tomcat:tomcat-jaspic-api:9.0.31
+\--- org.testng:testng:7.0.0
+     +--- com.beust:jcommander:1.72
+     \--- com.google.inject:guice:4.1.0
+          +--- javax.inject:javax.inject:1
+          +--- aopalliance:aopalliance:1.0
+          \--- com.google.guava:guava:19.0
+
+testCompileOnly - Compile only dependencies for source set 'test'. (n)
+No dependencies
+
+testImplementation - Implementation only dependencies for source set 'test'. (n)
+\--- org.testng:testng:7.0.0 (n)
+
+testRuntimeClasspath - Runtime classpath of source set 'test'.
++--- org.apache.tomcat:tomcat-catalina:latest.release -> 9.0.31
+|    +--- org.apache.tomcat:tomcat-servlet-api:9.0.31
+|    +--- org.apache.tomcat:tomcat-jsp-api:9.0.31
+|    |    +--- org.apache.tomcat:tomcat-el-api:9.0.31
+|    |    \--- org.apache.tomcat:tomcat-servlet-api:9.0.31
+|    +--- org.apache.tomcat:tomcat-juli:9.0.31
+|    +--- org.apache.tomcat:tomcat-annotations-api:9.0.31
+|    +--- org.apache.tomcat:tomcat-api:9.0.31
+|    |    \--- org.apache.tomcat:tomcat-servlet-api:9.0.31
+|    +--- org.apache.tomcat:tomcat-jni:9.0.31
+|    +--- org.apache.tomcat:tomcat-coyote:9.0.31
+|    |    +--- org.apache.tomcat:tomcat-servlet-api:9.0.31
+|    |    +--- org.apache.tomcat:tomcat-jni:9.0.31
+|    |    +--- org.apache.tomcat:tomcat-juli:9.0.31
+|    |    \--- org.apache.tomcat:tomcat-util:9.0.31
+|    |         \--- org.apache.tomcat:tomcat-juli:9.0.31
+|    +--- org.apache.tomcat:tomcat-util:9.0.31 (*)
+|    +--- org.apache.tomcat:tomcat-util-scan:9.0.31
+|    |    +--- org.apache.tomcat:tomcat-util:9.0.31 (*)
+|    |    +--- org.apache.tomcat:tomcat-juli:9.0.31
+|    |    \--- org.apache.tomcat:tomcat-api:9.0.31 (*)
+|    \--- org.apache.tomcat:tomcat-jaspic-api:9.0.31
+\--- org.testng:testng:7.0.0
+     +--- com.beust:jcommander:1.72
+     \--- com.google.inject:guice:4.1.0
+          +--- javax.inject:javax.inject:1
+          +--- aopalliance:aopalliance:1.0
+          \--- com.google.guava:guava:19.0
+
+testRuntimeOnly - Runtime only dependencies for source set 'test'. (n)
+No dependencies
+
+(*) - dependencies omitted (listed previously)
+
+(n) - Not resolved (configuration is not meant to be resolved)
+
+A web-based, searchable dependency report is available by adding the --scan option.
+
+BUILD SUCCESSFUL in 1s
+1 actionable task: 1 executed
