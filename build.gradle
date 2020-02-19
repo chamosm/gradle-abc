@@ -20,14 +20,11 @@ tasks.withType(JavaCompile) {
 }
 
 repositories {
-    // Use jcenter for resolving dependencies.
-    // You can declare any Maven/Ivy/file repository here.
     jcenter()
 }
 
 dependencies {
 	implementation  'org.apache.tomcat:tomcat-catalina:latest.release'
-    // This dependency is used internally, and not exposed to consumers on their own compile classpath.
     testImplementation 'org.testng:testng:7.0.0'
 }
 
