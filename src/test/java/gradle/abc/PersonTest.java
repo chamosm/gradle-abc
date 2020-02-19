@@ -3,13 +3,18 @@
  */
 package gradle.abc;
 
-import static org.testng.Assert.*;
-
+import org.testng.Assert;
 import org.testng.annotations.Test;
 
+
 public class PersonTest {
-    @Test public void someLibraryMethodReturnsTrue() {
+    @Test public void defaultIdTest() {
         Person testPerson = new Person();
-        assertTrue(testPerson.id == 1, "default id value");
+        Assert.assertTrue(testPerson.id == 1, "default id value");
+    }
+
+    @Test public void ageTest() {
+        Person testPerson = new Person();
+        Assert.assertTrue(testPerson.age(testPerson.birth) == 19, "default id value");
     }
 }

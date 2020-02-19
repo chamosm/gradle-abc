@@ -1,0 +1,24 @@
+
+
+mainClassName = 'gradle.abc.Person'
+
+run {
+	// Gradleのプロパティ System.properties
+	//    実行時に、"gradle.properties"を読み込む。
+	// Javaのプロパティ runタスクの値 systemProperties
+	systemProperties System.properties // GradleのプロパティをすべてJavaのプロパティにコピーする
+}
+
+//def beforeTree
+//task beforeFileTree {
+//	 beforeTree = fileTree(dir: '.')
+//}
+//
+//task afterFileTree {
+//	println fileTree(dir: '.') - beforeTree
+//}
+
+// 2020/02/17に、6.2のリリースアナウンスがあったがダウンロードファイルがなかった。
+//wrapper {
+//	gradleVersion = '6.2'
+//}

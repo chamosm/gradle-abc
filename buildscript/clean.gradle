@@ -1,0 +1,4 @@
+clean.doFirst {
+	// delete TestNG suite Test result report
+	delete 'test-output'
+}
