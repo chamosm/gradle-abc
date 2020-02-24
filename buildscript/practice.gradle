@@ -1,11 +1,11 @@
-def task practice1 {
+task practice1 {
 	println "practice1"
 }
 
-def task practice2 {
+task practice2 {
 	println "practice2"
 }
 
-def task practice3 {
+task practice3 {
 	println "practice3"
 }
