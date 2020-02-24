@@ -36,3 +36,5 @@ test {
 javadoc {
     options.addStringOption('encoding', 'UTF-8')
 }
+
+apply from: 'buildscript/practice.gradle'
